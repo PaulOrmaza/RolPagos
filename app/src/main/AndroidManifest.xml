@@ -13,6 +13,9 @@
         android:theme="@style/Theme.RolPagos"
         tools:targetApi="31">
         <activity
+            android:name=".CalculoRol"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
